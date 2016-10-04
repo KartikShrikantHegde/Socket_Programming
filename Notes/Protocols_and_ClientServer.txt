@@ -1,0 +1,46 @@
+The emphasis is on interface bw application layer and transport layer of the TCP stack. i.e TCP and UDP protocols.
+TCP and UDP - These inturn lies on top of IP protocol.
+
+The interface between the application program and transport layer is known as Sockets API.
+
+Eg:
+
+Consider the case of the web server returning a page to web browser. They communicate using HTTP protocol -> Hypertext transfer protocol. This is the protocol of concern for us as an application level programmer.
+
+But what happens is, The packets is passed down to the transport layer. TCP here adds its own headers to do its job.
+
+Then down to IP layer, IP protocol here adds again its own headers. 
+
+there are network access layers or link layer below it. example ethernet, so ethernet header is added and Finally the package is sent to the other end to Web Browser.
+
+IN the web browser the packets go from bottom to top, up the stack with headers being removed as and when it moves up the stack.
+
+Each layer has its own protocols.
+
+IP layer -> communicates using IP protocol.
+TCP layer -> communicates using TCP protocol.
+
+Finally the package is delivered to the application, in this case its Web Browser. 
+
+
+The role of server:
+provide services
+Establish an communication endpoint at an address of some sorts known to clients.
+
+This communication endpoint in known as Socket.
+
+After setting up the communication end point or the sockets, it waits for client requests.
+
+The role of client:
+Client consumes the services by making a connection to the server with its end point.
+
+This is what known as request and response cycle.
+
+Typically client runs locally and server sits remotely.
+
+
+
+
+
+
+
