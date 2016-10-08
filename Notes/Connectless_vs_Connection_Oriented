@@ -5,7 +5,8 @@ UDP:  Connectionless communication: (Since there is no guarantee of the delivery
 
 Important Characteristics : Analogy is postal network
 
-1. Just like postboxes, UDP must have the every recipeint endpoint address. 
+1. Just like postboxes, UDP must have the every recipeint endpoint address. And endpoint must know who is sending it. Both
+   sides must know each other identity.
 2. There is no guarantee of the delivery.
 3. It is best effort delivery service. It may lose datagrams. 
 4. Messeges will not arrive in the order they were sent. Because over  a WAN, there may be multiple routes available to reach the destination from source A to destnination B.
