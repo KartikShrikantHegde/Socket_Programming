@@ -1,4 +1,5 @@
-2 transport protocol used over internet is TCP and UDP.
+2 transport protocol used over internet is TCP and UDP. Both of these use 2 diff types of communications: Connection oriented
+and connectionless.
 
 
 UDP:  Connectionless communication: (Since there is no guarantee of the delivery)
