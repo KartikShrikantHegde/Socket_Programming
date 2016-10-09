@@ -21,6 +21,7 @@ Important Characteristics : Analogy is telephone network
    Both sides must know each other identity.
 2. There is guarantee of the delivery through diff acknowledgements.
 3. Messege boundaries are not preserved. Sender might send 300,100,200 bytes of data and reciever recieves 600 bytes as total.
+4. The order of messeges are preserved.
 
 
 Client-Servers:
