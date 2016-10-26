@@ -1,0 +1,38 @@
+2 transport protocol used over internet is TCP and UDP. Both of these use 2 diff types of communications: Connection oriented
+and connectionless.
+
+
+UDP:  Connectionless communication: (Since there is no guarantee of the delivery)
+
+Important Characteristics : Analogy is postal network
+
+1. Just like postboxes, UDP must have the every recipeint endpoint address. And endpoint doesnt know who is sending it. Both
+   sides need not know each other identity.
+2. There is no guarantee of the delivery.
+3. It is best effort delivery service. It may lose datagrams. 
+4. Messeges will not arrive in the order they were sent. Because over  a WAN, there may be multiple routes available to reach the destination from source A to destnination B.
+5. Messege size or boundaries are preserved from source to destination. Therefore if receiver wants to reply it needs to know the source address which sent the messege.
+
+TCP:  Connection-Oriented communication: (Since there is guarantee of the delivery)
+
+Important Characteristics : Analogy is telephone network
+
+1. Like doctor-patient relationship. Both needs to know each other to communicate.
+   Both sides must know each other identity.
+2. There is guarantee of the delivery through diff acknowledgements.
+3. Messege boundaries are not preserved. Sender might send 300,100,200 bytes of data and reciever recieves 600 bytes as total.
+4. The order of messeges are preserved.
+
+
+Client-Servers:
+
+Client also has port no which is irrelevant and an IP address.
+
+Server sitting on the machine has the IP and many diff ports each listening for specific services.
+Eg: web server - port 80, ssh -> port 22 etc..
+
+
+
+
+
+
