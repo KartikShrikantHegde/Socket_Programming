@@ -1,5 +1,7 @@
-'''****      Kartik Hegde
-             UTA ID: 1001234605
+'''****
+
+Kartik Hegde
+
 ****'''
 
 # Libraries
