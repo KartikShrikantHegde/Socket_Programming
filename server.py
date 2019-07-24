@@ -1,11 +1,3 @@
-'''****
-
-Kartik Hegde
-
-****'''
-
-# Libraries
-
 import socket
 import threading
 import time
